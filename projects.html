@@ -1,0 +1,488 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Jaideep</title>
+    <meta name="description" content="">
+    <meta name="msapplication-tap-highlight" content="yes" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <!-- Google professional Font -->
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lekton:400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <!--  Bootstrap 3-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- OWL Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+
+    <!--  Slider -->
+    <link rel="stylesheet" href="css/jquery.kenburnsy.css">
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- professional Icons Font -->
+    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="css/iconmoon.css">
+    <link rel="stylesheet" href="css/et-line.css">
+    <link rel="stylesheet" href="css/ionicons.css">
+
+    <!-- Magnific PopUp -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Tabs -->
+    <link rel="stylesheet" type="text/css" href="css/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+
+    <!-- Loader Style -->
+    <link rel="stylesheet" href="css/loader-1.css">
+
+    <!-- Costum Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/ico" href="subweb/img/jaideep.jpg">
+
+    <!-- Modernizer & Respond js -->
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="cover"></div>
+
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+            </div>
+            
+            <!-- Menu Hamburger (Default) -->
+            <button class="main-menu-indicator" id="open-button">
+                <span class="line"></span>
+            </button>
+            
+            <div class="menu-wrap" style="background-image: url(img/nav_bg.jpg)">
+                <div class="menu-content">
+                    <div class="navigation">
+                        <span class="pe-7s-close close-menu" id="close-button"></span>
+                    </div>
+                    <nav class="menu">
+                        <div class="menu-list">
+                            <ul>
+                                <li class="menu-item-has-children"><a href="index.html">Home</a>
+                                </li>
+                                <li><a href="subweb/about-us.html">About</a></li>
+                                <li><a href="projects.html">Portfolio</a></li>
+                                <li><a href="achievements.html">Achievements</a></li>
+                                <!--<li class="menu-item-has-children"><a href="#">Hobbies</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="sketches.html">-Sketches</a></li>
+                                        <li><a href="ideas.html">-Product Ideas</a></li>
+                                        <li><a href="racing.html">-Racing</a></li>
+                                    </ul>
+                                </li>-->
+                                <!-- <li class="menu-item-has-children"><a href="#">Blog</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog.html">Blog Default</a></li>
+                                        <li><a href="blog-timeline.html">Blog Timeline</a></li>
+                                        <li><a href="single-blog.html">Blog Single</a></li>
+                                    </ul>
+                                </li> -->
+                                <!-- <li><a href="contact.html">Contact</a></li> -->
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <div class="hidden-xs" style="margin-top: -5%;">
+                        <div class="menu-social-media">
+                            <ul>
+                                <li><a href="https://github.com/jaideep25" target="_blank"><i class="iconmoon-github"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="menu-information">
+                            <ul>
+                                <li>jaideepch@outlook.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Menu Hamburger (Default) -->
+
+        </div>
+    </div>
+
+    <div class="container margin-top">
+        <div class="main-title">
+            <h1>MY WORK</h1>
+            <hr>
+            <h6>Following are some of my projects!</h6>
+        </div>
+        <div class="portfolio-wrapper">
+            <button class="nav">
+                <span class="icon-container">
+                    <span class="line line01"></span>
+                    <span class="line line02"></span>
+                    <span class="line line03"></span>
+                    <span class="line line04"></span>
+                </span>
+            </button>
+            <div class="works-filter">
+                <a href="javascript:void(0)" class="filter active" data-filter="mix">All</a>
+                <a href="javascript:void(0)" class="filter" data-filter="html">HTML Programmed</a>
+                <a href="javascript:void(0)" class="filter" data-filter="java">JavaScript Programmed</a>
+                <a href="javascript:void(0)" class="filter" data-filter="jsx">JSX Programmed</a>
+                <a href="javascript:void(0)" class="filter" data-filter="bat">BAT Programmed</a>
+            </div>
+            <div class="js-masonry">
+                <div class="row" id="work-grid">
+                    <!-- Begin of Thumbs Portfolio -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix html">
+                        <div class="img home-portfolio-image">
+                            <img src="myimgs/space.png" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                 <!--    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">256</span> -->
+                                </a>
+                                <div class="details">
+                                    <span class="title">Dots Space Game</span>
+                                    <span class="info">HTML programmed</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://jaideep25.github.io/Trojan-Horse_Virus/"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix java">
+                        <div class="img home-portfolio-image">
+                            <img src="myimgs/multi.png" height="400" width="370" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                    <!-- <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">250</span> -->
+                                </a>
+                                <div class="details">
+                                    <span class="title">A car racing game Multiplayer</span>
+                                    <span class="info">Javascript programmed</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://jaideep25.github.io/Car-Racing-Game/"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix java">
+                        <div class="img home-portfolio-image">
+                            <img src="myimgs/dictionary.png" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                    <!-- <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">60</span> -->
+                                </a>
+                                <div class="details">
+                                    <span class="title">A dictionary app [For PC]</span>
+                                    <span class="info">JavaScript Programmed</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://jaideep25.github.io/Boot-Sector_Virus/"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix jsx">
+                        <div class="img home-portfolio-image">
+                            <img src="myimgs/pocketdict.png" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                    <!-- <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">1060</span> -->
+                                </a>
+                                <div class="details">
+                                    <span class="title">A dictionary app [For Mobile, Expo GO app to be installed, link sent inside!]</span>
+                                    <span class="info">JSX Programmed</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="projects/project3.html"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix html java">
+                        <div class="img home-portfolio-image">
+                            <img src="myimgs/calcez.png" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                    <!-- <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">900</span> -->
+                                </a>
+                                <div class="details">
+                                    <span class="title">A Simple Calculator</span>
+                                    <span class="info">HTML & JavaScript Programmed</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://jaideep25.github.io/Calculator-Simple-Easy/"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix html">
+                        <div class="img home-portfolio-image">
+                            <img src="myimgs/doodle.png" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                   <!--  <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">979</span> -->
+                                </a>
+                                <div class="details">
+                                    <span class="title">Doodle Cricket</span>
+                                    <span class="info">HTML Programmed</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://jaideep25.github.io/Doodle-Cricket/"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix bat">
+                        <div class="img home-portfolio-image">
+                            <img src="myimgs/harmless.png" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                    <!-- <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">1024</span> -->
+                                </a>
+                                <div class="details">
+                                    <span class="title">Harmless Virus [If you click it downloads the virus, and if you run it, it will shut your computer/pc down</span>
+                                    <span><button id="Virus" style="margin-top: 5%;" type="button" class="btn"><a href="virus.bat" style="color: black;" target="_blank">Virus</a></button></span>
+                                    <span class="info">BAT programmed</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix java">
+                        <div class="img home-portfolio-image">
+                            <img src="myimgs/single.png" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                   <!--  <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">2048</span> -->
+                                </a>
+                                <div class="details">
+                                    <span class="title">A single player car Racing game [Never ending]</span>
+                                    <span class="info">JavaScript & SCSS PROGRAMMED</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://jaideep25.github.io/3D-Car-Game/dist/index.html"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix html">
+                        <div class="img home-portfolio-image">
+                            <img src="myimgs/calc.png" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                 <!--    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">256</span> -->
+                                </a>
+                                <div class="details">
+                                    <span class="title">Scientific Calculator</span>
+                                    <span class="info">HTML Programmed</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://jaideep25.github.io/Scientific-Calculator-Desktop/"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix java html">
+                        <div class="img home-portfolio-image">
+                            <img src="myimgs/music.png" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                 <!--    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">256</span> -->
+                                </a>
+                                <div class="details">
+                                    <span class="title">Music Player</span>
+                                    <span class="info">HTML & JAVASCRIPT PROGRAMMED</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://jaideep25.github.io/Music/"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix html">
+                        <div class="img home-portfolio-image">
+                            <img src="myimgs/solar.png" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                 <!--    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">256</span> -->
+                                </a>
+                                <div class="details">
+                                    <span class="title">A small explaination of Our Solar System</span>
+                                    <span class="info">HTML Programmed</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://jaideep25.github.io/Solar-System/"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix java">
+                        <div class="img home-portfolio-image">
+                            <img src="myimgs/sudoku.png" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                 <!--    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">256</span> -->
+                                </a>
+                                <div class="details">
+                                    <span class="title">Sudoku</span>
+                                    <span class="info">JavaScript Programmed</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://jaideep25.github.io/Sudoku/"></a>
+                            </div>
+                        </div>
+                    </div>
+                 <!--   <div class="col-md-4 col-sm-4 col-xs-12 mix personal">
+                        <div class="img home-portfolio-image">
+                            <img src="First9/First 9/8. Scooter/370x400 Thumbnail.jpg" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                 <!--    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">256</span>
+                                </a>
+                                <div class="details">
+                                    <span class="title">3D Street Art Projects at BITS Pilani</span>
+                                    <span class="info">Design</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="projects/project8.html"></a>
+                            </div>
+                        </div>
+                    </div> -->
+                    
+                </div>
+            </div>
+            <!-- <div class="load-more">
+                <a href="javascript:void(0)" id="load-more"><i class="icon-refresh"></i></a>
+            </div> -->
+        </div>
+    </div>
+<!--     <div class="container margin-top">
+        <div class="newsletter">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="newsletter-left">
+                        <div class="newsletter-left-inner">
+                            <h1>STAY INFORMED <br> WITH OUR <b>NEWSLETTER</b></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="newsletter-right" style="background: url(img/newsletter-bg.jpg)">
+                        <div class="newsletter-right-inner">
+                            <form>
+                                <input type="text" name="newsletter" placeholder="ENTER YOUR EMAIL">
+                                <input type="submit" value="SUBSCRIBE">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="footer margin-top">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-2 col-sm-4 col-xs-12">
+                        <div class="footer-inner">
+                            <div class="footer-content">
+                                <h4>CONTACT ADDRESS</h4>
+                                    <address>India<br>
+                                    IN<br>
+                                    </address>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-md-push-8 col-sm-4 col-xs-12">
+                        <div class="footer-inner">
+                            <div class="footer-content">
+                               <h4>CONTACT INFO</h4>
+                                <p>
+                                    jaideepch@outlook.com<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-inner">
+                            <div class="footer-content">
+                            <ul class="social-media">
+                                <li><a href="https://github.com/jaideep25" target="_blank"><i class="iconmoon-github"></i></a></li>
+                            </ul>
+                            <!-- <span class="copyright-mark">&copy; 2015 OAK, ALL RIGHTS RESERVED</span>
+                            </div> -->
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <a href="javascript:void(0)" class="scroll-top" id="scroll-top"><i class="pe-7s-angle-up"></i></a>
+
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script data-pace-options='{ "ajax": false }' src="js/vendor/pace.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/classie.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/vendor/jquery.velocity.min.js"></script>
+    <script src="js/vendor/jquery.kenburnsy.min.js"></script>
+    <script src="js/vendor/textslide.js"></script>
+    <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="js/vendor/tabs.js"></script>
+    <script src="js/ef-slider.js"></script>    
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <script src="js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="js/vendor/jquery.social-buttons.min.js"></script>
+    <script src="js/vendor/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ajax.js"></script>
+</body>
+</html>
